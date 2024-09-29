@@ -17,9 +17,9 @@ function Login() {
         position: "top-center",
       });
     } catch (error) {
-      console.log(error.message);
+      console.log("Usuário não existe!");
 
-      toast.error(error.message, {
+      toast.error("Usuário não existe!", {
         position: "bottom-center",
       });
     }
